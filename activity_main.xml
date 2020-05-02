@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_marginLeft="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginStart="20dp">
+
+    <EditText
+        android:id="@+id/eTNombre"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/etNombre1"
+        android:theme="@style/formtext"
+        />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fecha de Nacimiento"
+        android:theme="@style/formtext"
+        />
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Seleccione Fecha"
+        android:theme="@style/formtext" />
+
+    <EditText
+        android:id="@+id/eTTelefono"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/ettelefono1"
+        android:theme="@style/formtext"
+        />
+    <EditText
+        android:id="@+id/eTEmail"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/etemail"
+        android:theme="@style/formtext"
+        />
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Descripcion"
+        android:theme="@style/formtext"
+        />
+    <EditText
+        android:id="@+id/eTDescripcion"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/etdescripcion1"
+        android:theme="@style/formtext"
+        />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/btnEnviar"
+        android:onClick="Enviar"
+        android:theme="@style/btns"
+
+        />
+
+
+</LinearLayout>
