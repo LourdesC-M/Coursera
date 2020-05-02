@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="etNombre1">Nombre</string>
+    <string name="ettelefono1">Telefono</string>
+    <string name="etemail">Email</string>
+    <string name="etdescripcion1">Descripcion Contacto</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnRegresar">Editar datos</string>
+</resources>
